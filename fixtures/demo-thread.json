@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1845000000000000001",
+    "isRoot": true,
+    "text": "分享一个观察：用大模型练语言的人越来越多，但大部分人三个月后就放弃了。问题不在工具，在于没有把它接进每天真正会做的事情里。",
+    "created_at": "Wed Oct 14 09:00:00 +0000 2026",
+    "lang": "zh",
+    "conversation_count": 12,
+    "user": { "id": "4120000000000000001", "screen_name": "yuyan_lab", "name": "语言实验室" }
+  },
+  {
+    "id": "1845000000000000101",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "确实 我昨天搞到三点还是不行",
+    "created_at": "Wed Oct 14 09:12:00 +0000 2026",
+    "lang": "zh",
+    "user": { "id": "4120000000000000101", "screen_name": "achen_tea", "name": "阿茶" }
+  },
+  {
+    "id": "1845000000000000102",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "ran 5k this morning and my knee still hurts, sitting on the couch like a loser now",
+    "created_at": "Wed Oct 14 09:20:00 +0000 2026",
+    "lang": "en",
+    "user": { "id": "4120000000000000102", "screen_name": "danaruns", "name": "Dana" }
+  },
+  {
+    "id": "1845000000000000103",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "属于是把我心里话说出来了",
+    "created_at": "Wed Oct 14 09:31:00 +0000 2026",
+    "lang": "zh",
+    "user": { "id": "4120000000000000103", "screen_name": "laozhou_shu", "name": "老周" }
+  },
+  {
+    "id": "1845000000000000104",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "Absolutely loved this thread! The seamless way you broke it down makes it accessible to everyone. Key takeaways: clarity, consistency, and courage. What challenges are you facing right now? 💡",
+    "created_at": "Wed Oct 14 09:44:00 +0000 2026",
+    "lang": "en",
+    "user": { "id": "4120000000000000104", "screen_name": "marcus_builds", "name": "Marcus" }
+  },
+  {
+    "id": "1845000000000000105",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "真正的成长发生在舒适区的边缘。这不仅仅是一句口号，更是一个可验证的实践路径。希望对你有帮助。",
+    "created_at": "Wed Oct 14 10:02:00 +0000 2026",
+    "lang": "zh",
+    "user": { "id": "4120000000000000105", "screen_name": "qing_reader", "name": "小晴" }
+  },
+  {
+    "id": "1845000000000000106",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "值得注意的是，学习语言的本质不仅仅是掌握词汇和语法，更是构建一种全新的认知框架。真正的关键在于找到适合自己的节奏，让每一次输入都能形成闭环，最终赋能于长期的成长。总而言之，只有把语言融入生活，它才能真的活起来。",
+    "created_at": "Wed Oct 14 10:15:00 +0000 2026",
+    "lang": "zh",
+    "user": { "id": "4120000000000000106", "screen_name": "victor_growth", "name": "Victor 成长笔记" }
+  },
+  {
+    "id": "1845000000000000107",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "Great point! Your post really highlights how important it is to build a robust, scalable workflow. What stands out to me is the balance between speed and sustainability — both truly matter. Have you considered how this might evolve as your team grows? 🚀",
+    "created_at": "Wed Oct 14 10:26:00 +0000 2026",
+    "lang": "en",
+    "user": { "id": "4120000000000000107", "screen_name": "amara_notes", "name": "Amara" }
+  },
+  {
+    "id": "1845000000000000108",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "免费领 300 元体验金，新老用户都能领，点我主页 example.com/fake 注册当天到账",
+    "created_at": "Wed Oct 14 10:40:00 +0000 2026",
+    "lang": "zh",
+    "user": { "id": "4120000000000000108", "screen_name": "huiyuan_666", "name": "会员福利官" }
+  },
+  {
+    "id": "1845000000000000109",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "免费领 300 元体验金，新老用户都能领，点我主页 example.com/fake 注册当天到账",
+    "created_at": "Wed Oct 14 10:52:00 +0000 2026",
+    "lang": "zh",
+    "user": { "id": "4120000000000000108", "screen_name": "huiyuan_666", "name": "会员福利官" }
+  },
+  {
+    "id": "1845000000000000110",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "免费领 300 元体验金，新老用户都能领，点我主页 example.com/fake 注册当天到账",
+    "created_at": "Wed Oct 14 11:05:00 +0000 2026",
+    "lang": "zh",
+    "user": { "id": "4120000000000000108", "screen_name": "huiyuan_666", "name": "会员福利官" }
+  },
+  {
+    "id": "1845000000000000111",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "免费领 300 元体验金，新老用户都能领，点我主页 example.com/fake 注册当天到账",
+    "created_at": "Wed Oct 14 11:18:00 +0000 2026",
+    "lang": "zh",
+    "user": { "id": "4120000000000000111", "screen_name": "liufuli_01", "name": "刘福" }
+  },
+  {
+    "id": "1845000000000000112",
+    "in_reply_to_status_id": "1845000000000000001",
+    "text": "Airdrop is live! Connect your wallet at example.com/fake to claim before the snapshot closes in 24h — only 100 spots left.",
+    "created_at": "Wed Oct 14 11:30:00 +0000 2026",
+    "lang": "en",
+    "user": { "id": "4120000000000000112", "screen_name": "airdrop_hunt3r", "name": "Airdrop Desk" }
+  }
+]

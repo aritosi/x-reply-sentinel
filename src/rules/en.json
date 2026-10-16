@@ -1,0 +1,1089 @@
+{
+  "lang": "en",
+  "version": "1.0.0",
+  "note": "Authored for this project. Reply-context patterns (praise opener -> restatement -> vague analysis -> reflexive question -> advice) that generic article-slop lists do not cover. Merged at load with en.ported.json (MIT, attributed).",
+  "words": [
+    {
+      "t": "insightful",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "nuanced",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "resonate",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "resonates",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "articulate",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "articulates",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "unpack",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "unpacking",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "underscores",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "highlights",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "delves",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "testament",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "cultivate",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "foster",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "elevate",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "streamline",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "actionable",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "game-changer",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "game changer",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "paradigm",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "landscape",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "multifaceted",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "holistic",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "thought-provoking",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "well-articulated",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "well said",
+      "w": 2,
+      "f": "praise"
+    },
+    {
+      "t": "spot on",
+      "w": 2,
+      "f": "praise"
+    },
+    {
+      "t": "nailed it",
+      "w": 2,
+      "f": "praise"
+    },
+    {
+      "t": "crucial",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "pivotal",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "profound",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "timely",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "robust",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "scalable",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "seamlessly",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "paradigm shift",
+      "w": 4,
+      "f": "vocab"
+    },
+    {
+      "t": "level up",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "deep dive",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "food for thought",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "resonates deeply",
+      "w": 4,
+      "f": "vocab"
+    },
+    {
+      "t": "continuous learning",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "competitive edge",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "reap the benefits",
+      "w": 4,
+      "f": "vocab"
+    },
+    {
+      "t": "in other words",
+      "w": 2,
+      "f": "connectives"
+    },
+    {
+      "t": "on top of that",
+      "w": 2,
+      "f": "connectives"
+    },
+    {
+      "t": "in the long run",
+      "w": 2,
+      "f": "connectives"
+    },
+    {
+      "t": "it's worth noting",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "at a deeper level",
+      "w": 4,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "the real question is",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "it comes down to",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "in essence",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "broadly speaking",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "the interplay between",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "a testament to",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "beautifully put",
+      "w": 3,
+      "f": "praise"
+    },
+    {
+      "t": "powerful insight",
+      "w": 3,
+      "f": "praise"
+    },
+    {
+      "t": "valuable insights",
+      "w": 3,
+      "f": "praise"
+    },
+    {
+      "t": "important reminder",
+      "w": 3,
+      "f": "praise"
+    },
+    {
+      "t": "the key is",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "what matters",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "gently push back",
+      "w": 5,
+      "f": "advice_template"
+    },
+    {
+      "t": "a masterclass",
+      "w": 4,
+      "f": "inflation"
+    },
+    {
+      "t": "masterclass",
+      "w": 3,
+      "f": "inflation"
+    },
+    {
+      "t": "superpower",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "reframing",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "not merely",
+      "w": 4,
+      "f": "template"
+    },
+    {
+      "t": "crystal clear",
+      "w": 3,
+      "f": "praise"
+    },
+    {
+      "t": "easy to follow",
+      "w": 3,
+      "f": "praise"
+    },
+    {
+      "t": "well structured",
+      "w": 3,
+      "f": "praise"
+    },
+    {
+      "t": "clearly laid out",
+      "w": 3,
+      "f": "praise"
+    },
+    {
+      "t": "hit home",
+      "w": 2,
+      "f": "praise"
+    },
+    {
+      "t": "so true",
+      "w": 2,
+      "f": "praise"
+    },
+    {
+      "t": "on-ramps",
+      "w": 2,
+      "f": "vocab"
+    },
+    {
+      "t": "it's not about",
+      "w": 3,
+      "f": "template"
+    },
+    {
+      "t": "it's about",
+      "w": 2,
+      "f": "template"
+    },
+    {
+      "t": "true mastery",
+      "w": 3,
+      "f": "inflation"
+    },
+    {
+      "t": "empowering others",
+      "w": 3,
+      "f": "vocab"
+    },
+    {
+      "t": "curiosity is",
+      "w": 2,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "rich insight",
+      "w": 4,
+      "f": "praise_opener"
+    },
+    {
+      "t": "appreciate this take",
+      "w": 4,
+      "f": "praise_opener"
+    },
+    {
+      "t": "appreciate the share",
+      "w": 4,
+      "f": "praise_opener"
+    },
+    {
+      "t": "speed matters",
+      "w": 2,
+      "f": "pseudo_analysis"
+    },
+    {
+      "t": "direction",
+      "w": 1,
+      "f": "vocab"
+    }
+  ],
+  "phrases": [
+    {
+      "p": "great point",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "great insight",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "great take",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "excellent point",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "excellent take",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "love this",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "love this breakdown",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "this is spot on",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "couldn't agree more",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "powerful words",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "such a timely reminder",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "thanks for sharing this",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "thank you for sharing",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "appreciate you sharing",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "curious to hear your thoughts",
+      "w": 5,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "would love to hear your take",
+      "w": 5,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "what's your take on this",
+      "w": 4,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "what has worked for you",
+      "w": 4,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "how are you navigating",
+      "w": 4,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "drop your thoughts",
+      "w": 4,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "anyone else",
+      "w": 3,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "am i right",
+      "w": 3,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "at its core",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "the real takeaway",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "what stands out",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "what strikes me",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "the underlying issue",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "serves as a reminder",
+      "w": 4,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "a reminder that",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "highlights the importance of",
+      "w": 5,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "underscores the need",
+      "w": 5,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "delves into",
+      "w": 4,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "digs into the",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "peeled back",
+      "w": 3,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "in summary",
+      "w": 3,
+      "f": "summary"
+    },
+    {
+      "p": "overall",
+      "w": 2,
+      "f": "summary",
+      "pos": "start"
+    },
+    {
+      "p": "ultimately",
+      "w": 2,
+      "f": "summary",
+      "pos": "start"
+    },
+    {
+      "p": "moreover",
+      "w": 3,
+      "f": "summary",
+      "pos": "start"
+    },
+    {
+      "p": "furthermore",
+      "w": 3,
+      "f": "summary",
+      "pos": "start"
+    },
+    {
+      "p": "additionally",
+      "w": 3,
+      "f": "summary",
+      "pos": "start"
+    },
+    {
+      "p": "one actionable step",
+      "w": 5,
+      "f": "advice_template"
+    },
+    {
+      "p": "consider breaking this into",
+      "w": 5,
+      "f": "advice_template"
+    },
+    {
+      "p": "i'd love to see",
+      "w": 3,
+      "f": "advice_template"
+    },
+    {
+      "p": "keep showing up",
+      "w": 4,
+      "f": "advice_template"
+    },
+    {
+      "p": "small consistent steps",
+      "w": 4,
+      "f": "advice_template"
+    },
+    {
+      "p": "start with one",
+      "w": 3,
+      "f": "advice_template"
+    },
+    {
+      "p": "quality over volume",
+      "w": 4,
+      "f": "advice_template"
+    },
+    {
+      "p": "in today's fast-paced world",
+      "w": 5,
+      "f": "calque",
+      "pos": "start"
+    },
+    {
+      "p": "in an era where",
+      "w": 4,
+      "f": "calque",
+      "pos": "start"
+    },
+    {
+      "p": "in the age of ai",
+      "w": 4,
+      "f": "calque",
+      "pos": "start"
+    },
+    {
+      "p": "as an ai",
+      "w": 6,
+      "f": "chat_leak"
+    },
+    {
+      "p": "as a language model",
+      "w": 6,
+      "f": "chat_leak"
+    },
+    {
+      "p": "i cannot browse",
+      "w": 6,
+      "f": "chat_leak"
+    },
+    {
+      "p": "hope this helps",
+      "w": 5,
+      "f": "chat_leak",
+      "pos": "end"
+    },
+    {
+      "p": "let me know if you'd like",
+      "w": 5,
+      "f": "chat_leak",
+      "pos": "end"
+    },
+    {
+      "p": "certainly!",
+      "w": 5,
+      "f": "chat_leak",
+      "pos": "start"
+    },
+    {
+      "p": "great question",
+      "w": 5,
+      "f": "chat_leak",
+      "pos": "start"
+    },
+    {
+      "p": "great share",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "nice share",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "fantastic point",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "loved this",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "this post resonates",
+      "w": 4,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "such good advice",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "timely post",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "exactly this",
+      "w": 2,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "great advice",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "what are your thoughts",
+      "w": 4,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "thoughts on this",
+      "w": 4,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "would you agree",
+      "w": 3,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "what have you found",
+      "w": 3,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "how do you handle",
+      "w": 3,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "curious what others",
+      "w": 3,
+      "f": "engagement_tail",
+      "pos": "end"
+    },
+    {
+      "p": "to truly",
+      "w": 3,
+      "f": "advice_template"
+    },
+    {
+      "p": "i'd also look into",
+      "w": 4,
+      "f": "advice_template"
+    },
+    {
+      "p": "one thing that stands out",
+      "w": 4,
+      "f": "pseudo_analysis"
+    },
+    {
+      "p": "in today's world",
+      "w": 4,
+      "f": "calque"
+    },
+    {
+      "p": "we live in an age",
+      "w": 4,
+      "f": "calque"
+    },
+    {
+      "p": "i hope this helps",
+      "w": 6,
+      "f": "chat_leak",
+      "pos": "end"
+    },
+    {
+      "p": "let me know if",
+      "w": 5,
+      "f": "chat_leak",
+      "pos": "end"
+    },
+    {
+      "p": "would you like me to",
+      "w": 6,
+      "f": "chat_leak"
+    },
+    {
+      "p": "i don't have access",
+      "w": 6,
+      "f": "chat_leak"
+    },
+    {
+      "p": "here's a breakdown",
+      "w": 5,
+      "f": "chat_leak",
+      "pos": "start"
+    },
+    {
+      "p": "feel free to reach out",
+      "w": 6,
+      "f": "chat_leak",
+      "pos": "end"
+    },
+    {
+      "p": "thanks for sharing",
+      "w": 3,
+      "f": "praise_opener",
+      "pos": "start"
+    },
+    {
+      "p": "so true",
+      "w": 2,
+      "f": "praise"
+    },
+    {
+      "p": "the two are not",
+      "w": 3,
+      "f": "template"
+    },
+    {
+      "p": "it's not merely",
+      "w": 4,
+      "f": "template"
+    },
+    {
+      "p": "would love your thoughts",
+      "w": 5,
+      "f": "engagement_tail",
+      "pos": "end"
+    }
+  ],
+  "structures": [
+    {
+      "name": "praise_then_restate",
+      "re": "^\\s*(great|excellent|love|nice|amazing|interesting)\\b[^.!?]{0,40}[.!?]\\s+(so|this|that|you)\\b",
+      "flags": "i",
+      "w": 5,
+      "f": "template"
+    },
+    {
+      "name": "trailing_generic_question",
+      "re": "[.!?]\\s*(what(?:'s| is| are)|how do|any thoughts|thoughts\\??|agree\\??|who else|am i (right|wrong)|your take)\\b[^!?.]{0,60}[?!]?\\s*$",
+      "flags": "i",
+      "w": 5,
+      "f": "template"
+    },
+    {
+      "name": "markdown_bold_bullets",
+      "re": "(?:^|\\n)\\s*(?:[-*•]|\\d+[.)])\\s*\\*\\*[^\\n]{2,60}\\*\\*",
+      "flags": "",
+      "w": 6,
+      "f": "formatting"
+    },
+    {
+      "name": "bold_heading_colon",
+      "re": "(?:^|\\n)\\s*(?:\\*\\*|#{1,4})\\s*[A-Z][^\\n:]{2,30}[:：]",
+      "flags": "",
+      "w": 5,
+      "f": "formatting"
+    },
+    {
+      "name": "three_bullets",
+      "re": "(?:^|\\n)\\s*(?:[-*•]|\\d+[.)])\\s+\\S+(?:[^\\n]*\\n\\s*(?:[-*•]|\\d+[.)])\\s+\\S+){2,}",
+      "flags": "",
+      "w": 5,
+      "f": "formatting"
+    },
+    {
+      "name": "balanced_antithesis",
+      "re": "\\b(?:it'?s not|isn'?t (?:just|only|really|merely)|not merely|not just)\\b[^.!?,\\n]{3,60}[,.]\\s*(?:it'?s|that'?s|but|this is)\\s+(?:really |just |only )?(?:about|when|how|a|an|the|more|[A-Za-z])",
+      "flags": "i",
+      "w": 5,
+      "f": "template"
+    },
+    {
+      "name": "decorated_triad",
+      "re": "\\b[a-z]+(?:ic|al|ive|ous|ful)\\b,\\s*[a-z]+(?:ic|al|ive|ous|ful)\\b,?\\s*(?:and|or)\\s*[a-z]+(?:ic|al|ive|ous|ful)\\b",
+      "flags": "i",
+      "w": 4,
+      "f": "template"
+    },
+    {
+      "name": "em_dash_pair",
+      "re": "[^—\n]{4,}\\s—\\s[^—\n]{4,}\\s—\\s",
+      "flags": "",
+      "w": 4,
+      "f": "formatting"
+    },
+    {
+      "name": "hourglass_close",
+      "re": "[.!?]\\s*(?:in summary|bottom line|the takeaway|at the end of the day|ultimately|overall)[,:\\s]",
+      "flags": "i",
+      "w": 4,
+      "f": "template"
+    },
+    {
+      "name": "generic_advice_pair",
+      "re": "\\b(?:consider|try|start|focus on|prioritize|lean into)\\b[^.!?]{6,60}[,.]?\\s*(?:and|then|while)\\b[^.!?]{6,60}[.!?]\\s*(?:small steps|consistency|over time|compound)",
+      "flags": "i",
+      "w": 5,
+      "f": "template"
+    },
+    {
+      "name": "staccato_chain",
+      "re": "(?:^|[.!?]\\s*)(?:[A-Z][a-z]{1,12}|[a-z]{1,12})(?: [a-z']{1,6}){0,5}[.!?]\\s*(?:[A-Z][a-z]{1,12}|[a-z]{1,12})(?: [a-z']{1,6}){0,5}[.!?]\\s*(?:[A-Z][a-z]{1,12}|[a-z]{1,12})(?: [a-z']{1,6}){0,5}[.!?]\\s*$",
+      "flags": "",
+      "w": 3,
+      "f": "template"
+    },
+    {
+      "name": "emoji_bullet_line",
+      "re": "(?:^|\\n)\\s*(?:✅|🚀|💡|🔑|⚡|🎯|📌|🧠|🔥|💪)\\s*\\S",
+      "flags": "",
+      "w": 4,
+      "f": "formatting"
+    },
+    {
+      "name": "cta_link_in_bio",
+      "re": "\\b(link in (?:my )?(?:bio|profile|comments)|check (?:my|the) (?:profile|link bio)|dm (?:me|us) (?:for|to)|comment \"?[A-Z]{2,12}\"? and i'?ll|follow for more)\\b",
+      "flags": "i",
+      "w": 8,
+      "f": "marketing"
+    },
+    {
+      "name": "url_shortener",
+      "re": "\\b(?:https?://)?(?:bit\\.ly|tinyurl\\.com|t\\.co|cutt\\.ly|is\\.gd|rb\\.gg|rebrand\\.ly|shorturl\\.at|tinycc|buffd\\.ly|linktr\\.ee|bio\\.link|litlink)\\b/\\S*",
+      "flags": "i",
+      "w": 7,
+      "f": "marketing"
+    },
+    {
+      "name": "scam_giveaway",
+      "re": "\\b(?:claim (?:your|free)|airdrop|whitelist spot|giveaway (?:is )?live|double (?:your|any) (?:btc|eth|crypto)|send now|limited spots|act fast|verified wallet|crypto (?:gift|bonus))\\b",
+      "flags": "i",
+      "w": 10,
+      "f": "scam"
+    },
+    {
+      "name": "contact_channel_funnel",
+      "re": "\\b(?:t\\.me/|discord\\.gg/|wa\\.me/|whatsapp|telegram|wechat)\\b",
+      "flags": "i",
+      "w": 6,
+      "f": "marketing"
+    },
+    {
+      "name": "adult_funnel",
+      "re": "\\b(?:onlyfans|fansly|chaturbate|cameo\\s*\\(|spice\\.video)\\b",
+      "flags": "i",
+      "w": 8,
+      "f": "marketing"
+    },
+    {
+      "name": "en_ordinal_chain",
+      "re": "(?:^|[.!?]\\s*)(?:first|second|third|fourth|finally|last(?:ly)?|moreover|furthermore|additionally|to start)[,:]",
+      "flags": "",
+      "w": 3,
+      "f": "template"
+    },
+    {
+      "name": "en_emphatic_hedge",
+      "re": "\\b(?:not just|it'?s not (?:just|only|really)|more importantly|crucially|importantly|to be clear|let'?s be clear)[,:]",
+      "flags": "",
+      "w": 3,
+      "f": "template"
+    },
+    {
+      "name": "en_agree_and_add",
+      "re": "\\b(?:so true|exactly|this\\s*!+|100%|couldn'?t agree more|spot on)[.!?]?\\s*(?:and |also |plus |additionally|i'?d (?:also|add))",
+      "flags": "",
+      "w": 4,
+      "f": "template"
+    },
+    {
+      "name": "en_passive_abstract",
+      "re": "\\b(?:the (?:importance|need|value|role|power) of [a-z]{3,20}|importance of (?:consistency|discipline|clarity|patience)|balance between [a-z]{3,20} and [a-z]{3,20})\\b",
+      "flags": "",
+      "w": 4,
+      "f": "pseudo_analysis"
+    },
+    {
+      "name": "en_external_link",
+      "re": "(?:https?://|www\\.)\\S+|[\\w-]+\\.(?:com|net|org|io|xyz|top|shop|link)(?:/\\S*)?",
+      "flags": "",
+      "w": 5,
+      "f": "marketing"
+    },
+    {
+      "name": "en_cta_extra",
+      "re": "\\b(?:in my bio|bio link|check my (?:profile|page|bio)|follow(?:ing)? me for|free (?:\\d+[- ][a-z]+ )?(?:plan|guide|ebook|audit|template|checklist|course|week)|giving (?:this|it|away)|too long to post|comment \"?\\w{2,12}\"? (?:and i'?ll|to (?:get|receive))|grab (?:yours|it) (?:now|today)|limited (?:spots|copies|seats))\\b",
+      "flags": "",
+      "w": 7,
+      "f": "marketing"
+    },
+    {
+      "name": "en_phishing",
+      "re": "\\b(?:verify (?:your|here|the)|unusual (?:sign-in|sign in|activity|login|access)|avoid (?:suspension|lockout|losing access)|confirm (?:your )?(?:identity|details|account|shipping)|update your (?:payment|card|account|billing)|account (?:has been |is |will be )?(?:locked|suspended|restricted|flagged)|secure your account|click (?:here|the link below|the link to)|claim your (?:prize|reward|bonus)|customer (?:support|service) ?(?:team)?|seed phrase|connect (?:your )?wallet|passport (?:number|details)|provide your (?:full )?(?:name|address|id))\\b",
+      "flags": "",
+      "w": 10,
+      "f": "scam"
+    }
+  ]
+}

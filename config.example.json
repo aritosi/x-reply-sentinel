@@ -1,0 +1,103 @@
+{
+  "mode": "dry-run",
+  "timezone": "Asia/Shanghai",
+  "dataDir": "~/.x-reply-sentinel",
+  "reportDir": "reports",
+  "auditLog": "audit/actions.jsonl",
+  "whitelistFile": "whitelist.json",
+
+  "fetch": {
+    "provider": "auto",
+    "maxRepliesPerPost": 300,
+    "maxPagesPerRun": 40,
+    "pageDelayMs": 2500,
+    "pageJitterMs": 1500,
+    "maxRequestsPerDay": 300,
+    "timeoutMs": 20000,
+    "retries": 3,
+    "backoffBaseMs": 5000,
+    "backoffMaxMs": 300000,
+    "proxyUrl": "",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "importFile": "",
+    "fixtureFile": "",
+    "bearerTokenEnv": "XRS_X_BEARER_TOKEN",
+    "authTokenEnv": "XRS_X_AUTH_TOKEN",
+    "ct0Env": "XRS_X_CT0",
+    "selfHandleEnv": "XRS_X_SELF_HANDLE",
+    "tweetDetailQueryId": "",
+    "userTweetsQueryId": ""
+  },
+
+  "llm": {
+    "enabled": true,
+    "baseUrl": "https://api.deepseek.com/v1",
+    "model": "deepseek-v4-flash",
+    "apiKeyEnv": "XRS_LLM_API_KEY",
+    "temperature": 0,
+    "batchSize": 20,
+    "maxBatchChars": 24000,
+    "timeoutMs": 60000,
+    "retries": 2,
+    "greyZone": [18, 82],
+    "maxCallsPerDay": 20,
+    "maxTokensPerDay": 200000,
+    "maxCostPerDayUsd": 0.5,
+    "priceInputUsdPerMTok": 0.27,
+    "priceOutputUsdPerMTok": 1.1,
+    "maxOutputTokens": 2000
+  },
+
+  "thresholds": {
+    "deepScanMin": 70,
+    "reviewMin": 50,
+    "banMinSpamScore": 85,
+    "banMinIndependentSignals": 2,
+    "banMinConfidence": 0.8,
+    "deepScanMaxAccountsPerDay": 10,
+    "profileTweetCount": 30,
+    "minConfidenceToRecord": 0.4
+  },
+
+  "risk": {
+    "halfLifeDays": 30,
+    "maxContributionPerKind": 30,
+    "repeatBonusPerExtraHit": 3,
+    "repeatBonusCap": 12,
+    "maxAgeDays": 180,
+    "humanCorrectionWeight": -40
+  },
+
+  "actions": {
+    "maxPerDay": 20,
+    "maxPerHour": 5,
+    "minIntervalMs": 90000,
+    "jitterMs": 60000,
+    "styleOnlyKinds": [
+      "lexicon_slop",
+      "template_structure",
+      "praise_opener",
+      "engagement_question",
+      "restatement",
+      "formatting_tells",
+      "low_specificity",
+      "flat_rhythm",
+      "chat_leak",
+      "llm_semantic"
+    ],
+    "banEligibleKinds": [
+      "duplicate_content",
+      "spam_ring",
+      "scam_link",
+      "repeat_marketing",
+      "marketing_link",
+      "profile_signal",
+      "llm_spam_verdict"
+    ]
+  },
+
+  "schedule": {
+    "watchIntervalHours": 6,
+    "dailyReportHour": 9
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "x-reply-sentinel",
+  "version": "0.1.0",
+  "description": "GrokBot skill: zero-token-first AI-style detection and account risk management for X (Twitter) reply threads",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "bin": {
+    "xrs": "./src/cli.ts"
+  },
+  "scripts": {
+    "scan": "node src/cli.ts scan",
+    "watch": "node src/cli.ts watch",
+    "daily": "node src/cli.ts daily",
+    "doctor": "node src/cli.ts doctor",
+    "test": "node --test",
+    "test:eval": "node tests/eval_corpus.ts",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

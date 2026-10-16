@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "en-human-001",
+    "text": "ran 5k this morning and my knee still hurts, sitting on the couch like a loser now",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "lowercase, fragment, concrete personal detail"
+  },
+  {
+    "id": "en-human-002",
+    "text": "bro said that so confidently too 😭",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "slang + single emoji, no structure"
+  },
+  {
+    "id": "en-human-003",
+    "text": "same. third week of trying to fix this printer and it still eats paper every single time, i've started walking past it on purpose so i don't have to make eye contact with the thing",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "casual agreement, specific annoyance"
+  },
+  {
+    "id": "en-human-004",
+    "text": "not me rereading the same paragraph four times",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "meme syntax, self-deprecating"
+  },
+  {
+    "id": "en-human-005",
+    "text": "honestly? i peaked at the group project in college",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "joke, lowercase i, no advice"
+  },
+  {
+    "id": "en-human-006",
+    "text": "wait does this work on android or is it another apple-only thing",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "genuine question, informal hedge"
+  },
+  {
+    "id": "en-human-007",
+    "text": "my cat sat on my keyboard and somehow wrote a better take than me",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "personal anecdote, hyperbole"
+  },
+  {
+    "id": "en-human-008",
+    "text": "i ate cold pizza over the sink for dinner and i'm not sorry",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "vivid low-key detail a model rarely invents"
+  },
+  {
+    "id": "en-human-009",
+    "text": "typo but whatever, you get it",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "acknowledges own typo, dismissive"
+  },
+  {
+    "id": "en-human-010",
+    "text": "ok this is the third person today telling me to just use redis and if one more person says that i'm going to lose it, it was never the cache, it was the schema, we fixed it by dropping a join nobody needed and the query went from 900ms to 40",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "irritated rant with real numbers and jargon"
+  },
+  {
+    "id": "en-human-011",
+    "text": "understandable have a nice day",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "meme phrase, zero punctuation"
+  },
+  {
+    "id": "en-human-012",
+    "text": "mine died two days out of warranty. two days. that's cosmic level timing, i still have the box in the closet with the receipt and the little bag of screws, all of it sitting there accusing me",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "repetition for emphasis, personal bad luck"
+  },
+  {
+    "id": "en-human-013",
+    "text": "i'm not crying you're crying",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "projection joke, contraction heavy"
+  },
+  {
+    "id": "en-human-014",
+    "text": "genuinely thought this was a bot at first, my bad, i even started drafting an angry paragraph about reply guys before i noticed your timestamp was from last week",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "apology slang, short"
+  },
+  {
+    "id": "en-human-015",
+    "text": "put it in the drawer with the other 40 cables, problem solved for the next six months, until i need one specific adapter and it becomes a two hour archaeology dig with my dad on the phone telling me to label things",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "fake advice joke, specific drawer detail"
+  },
+  {
+    "id": "en-human-016",
+    "text": "lol you wrote my brain on the inside",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "internet idiom"
+  },
+  {
+    "id": "en-human-017",
+    "text": "nah that's cap, i checked the timestamps and they don't line up at all",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "skepticism with slang and evidence claim"
+  },
+  {
+    "id": "en-human-018",
+    "text": "my grandma does this and calls it the computer way",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "family anecdote, quoted phrase without quotes"
+  },
+  {
+    "id": "en-human-019",
+    "text": "i've said this exact thing to my barista like four times so being on this side of it feels weird, also she still gets my order wrong every single morning which says a lot about the whole interaction",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "run-on personal tangent"
+  },
+  {
+    "id": "en-human-020",
+    "text": "hard disagree but the part about sleep is fair i guess",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "partial agreement with hedge"
+  },
+  {
+    "id": "en-human-021",
+    "text": "why does this hit at 2am when i should be asleep",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "rhetorical, relatable timing detail"
+  },
+  {
+    "id": "en-human-022",
+    "text": "just spent 20 min looking for my glasses. they're on my head. again. i started a note on my phone listing where i put things and last night i couldn't find the phone to add to it",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "three short fragments, classic human rhythm"
+  },
+  {
+    "id": "en-human-023",
+    "text": "this is so specific to your situation that it's barely advice lol",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "mild pushback, no polite framing"
+  },
+  {
+    "id": "en-human-024",
+    "text": "i'd pay to see the spreadsheet behind this take",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "sarcastic challenge"
+  },
+  {
+    "id": "en-human-025",
+    "text": "second time this week someone posted my exact todo list, is there a group chat i don't know about",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "paranoid joke, lowercase"
+  },
+  {
+    "id": "en-human-026",
+    "text": "ok but did you hydrate the dough or was it the humidity, mine always sticks in summer and last time i ended up with something that tasted like a shoe",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "domain question plus self-deprecating result"
+  },
+  {
+    "id": "en-human-027",
+    "text": "coffee got cold, meeting ran long, still here. that's the update",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "flat lived detail, no takeaway"
+  },
+  {
+    "id": "en-human-028",
+    "text": "you say that like i have a choice",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "deadpan, six words"
+  },
+  {
+    "id": "en-human-029",
+    "text": "im down but only if we're done by 6, i have a thing at 7 that i've already cancelled three times",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "missing apostrophe, real scheduling constraint"
+  },
+  {
+    "id": "en-human-030",
+    "text": "cool cool cool. anyway my train's here",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "triple repetition, abrupt exit"
+  },
+  {
+    "id": "en-human-031",
+    "text": "i read this three times and i'm still not sure you know what you're describing",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "blunt doubt, no softening"
+  },
+  {
+    "id": "en-human-032",
+    "text": "big mood. small human.",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "four-word meme pair"
+  },
+  {
+    "id": "en-human-033",
+    "text": "my hands are too cold to type properly so forgive the grammar",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "physical context for sloppy typing"
+  },
+  {
+    "id": "en-human-034",
+    "text": "not the elbow, always the elbow, i saw this and immediately checked my own arm because i did the exact same thing at the gym yesterday and had to leave after ten minutes",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "fragment reaction"
+  },
+  {
+    "id": "en-human-035",
+    "text": "i wish i could unsee this",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "five words, neologism"
+  },
+  {
+    "id": "en-human-036",
+    "text": "spent saturday fixing the bike, got 200m before the chain slipped again, went home and watched cartoons, no regrets",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "sequential anecdote with specific distance"
+  },
+  {
+    "id": "en-human-037",
+    "text": "this is what happens when you let me near a whiteboard",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "self-aware caption style"
+  },
+  {
+    "id": "en-human-038",
+    "text": "dude, i clicked on this thinking it was about gardening",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "disappointed mis-click confession"
+  },
+  {
+    "id": "en-human-039",
+    "text": "ok this made me laugh out loud on the bus, thanks for that, the seat next to me is empty now which is honestly a win",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "over-share of commute consequence"
+  },
+  {
+    "id": "en-human-040",
+    "text": "i'm 27 and i still can't parallel park, we all have our limits",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "age detail, self mock"
+  },
+  {
+    "id": "en-human-041",
+    "text": "hmm the last time i tried that i lost an entire afternoon so hard pass",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "hedged refusal with past cost"
+  },
+  {
+    "id": "en-human-042",
+    "text": "my bank account says no, my heart says maybe next month",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "antithesis but personal, not essay-ish"
+  },
+  {
+    "id": "en-human-043",
+    "text": "adding 'sleep more' to the list of things i won't do",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "ironic list joke"
+  },
+  {
+    "id": "en-human-044",
+    "text": "you left out the part where i cried in the parking lot",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "correcting the OP with embarrassing detail"
+  },
+  {
+    "id": "en-human-045",
+    "text": "that's not a red flag that's a whole parade",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "extension joke, no analysis"
+  },
+  {
+    "id": "en-human-046",
+    "text": "i typed a whole reply then deleted it because it came out sounding like i was lecturing somebody at 1am, so here we are with nothing instead",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "meta-comment on typing itself"
+  },
+  {
+    "id": "en-human-047",
+    "text": "first person to guess what happens at the end gets nothing, i already spent the prize money",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "anti-prize punchline"
+  },
+  {
+    "id": "en-human-048",
+    "text": "same energy as my printer asking for a firmware update at 11pm",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "comparison to own device"
+  },
+  {
+    "id": "en-human-049",
+    "text": "i actually did this and it fixed nothing but hey, we tried",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "failed experiment admission"
+  },
+  {
+    "id": "en-human-050",
+    "text": "why am i reading replies at work instead of writing the report due at 4",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "procrastination self-call-out"
+  },
+  {
+    "id": "en-human-051",
+    "text": "no bc this is the funniest thing i've seen all week",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "text abbreviation bc"
+  },
+  {
+    "id": "en-human-052",
+    "text": "my nephew would love this and also would break it in 90 seconds, last christmas he got a drone, it lasted until dessert, he's now glued to my sister and screams when she leaves the room",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "family reference with timing joke"
+  },
+  {
+    "id": "en-human-053",
+    "text": "sure, and i'm the queen of england",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "idiomatic disbelief"
+  },
+  {
+    "id": "en-human-054",
+    "text": "not the 'quick 10 minute fix' that turned into six hours of my life",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "quoted phrase mockery, real time cost"
+  },
+  {
+    "id": "en-human-055",
+    "text": "i miss when apps just had one setting for dark mode",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "nostalgic gripe, opinionated"
+  },
+  {
+    "id": "en-human-056",
+    "text": "halfway through this i knew i'd be back in two days asking the same thing",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "predicting own future behaviour"
+  },
+  {
+    "id": "en-human-057",
+    "text": "ok real talk, does anyone actually finish these or is it all just starting",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "genuine question to the crowd, informal"
+  },
+  {
+    "id": "en-human-058",
+    "text": "my back said no to the hiking idea before my brain did",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "body-personification joke"
+  },
+  {
+    "id": "en-human-059",
+    "text": "shouldn't laugh but that's my coworker's entire personality",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "guilty-laugh aside, refers to real person unnamed"
+  },
+  {
+    "id": "en-human-060",
+    "text": "i put 'read more books' down as a goal this year and then spent four hours reading patch notes for a game i don't even like anymore, so the goal is technically a win",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "long self-contradicting anecdote"
+  },
+  {
+    "id": "en-human-061",
+    "text": "this is either genius or a cry for help, still undecided, i've read it three times, my coffee is cold, and i still haven't opened the ticket i was supposed to file",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "binary joke with trailing fragment"
+  },
+  {
+    "id": "en-human-062",
+    "text": "grew up with one of these, it still smells like my grandpa's garage",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "sensory memory detail"
+  },
+  {
+    "id": "en-human-063",
+    "text": "i'm going to pretend i understood that on purpose so this conversation can end",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "admits confusion awkwardly"
+  },
+  {
+    "id": "en-human-064",
+    "text": "three people in my mentions already, is this a group chat now",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "platform-native phrasing"
+  },
+  {
+    "id": "en-human-065",
+    "text": "the audacity to post this at 9am when i'm like this, i haven't even had my coffee and i'm reading your whole thread with one eye open like it owes me money",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "mock outrage"
+  },
+  {
+    "id": "en-human-066",
+    "text": "mine lasted 4 months then just stopped, no warning, rude",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "product failure story, one-word verdict"
+  },
+  {
+    "id": "en-human-067",
+    "text": "tell me you work in customer support without telling me, i'll go first: i said have you tried restarting it nine times before lunch and my voice changed",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "meme prompt answered with shift detail"
+  },
+  {
+    "id": "en-human-068",
+    "text": "i was going to be productive today but here i am, on this app, again",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "self-report of doomscrolling"
+  },
+  {
+    "id": "en-human-069",
+    "text": "that's a lot of words for 'i forgot to save'",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "reductive teasing of the OP"
+  },
+  {
+    "id": "en-human-070",
+    "text": "appreciate the honesty, most people wouldn't admit that part, i've been doing this job eight years and nobody has ever said it out loud in a meeting",
+    "lang": "en",
+    "label": "human",
+    "bucket": "easy",
+    "note": "warm but clipped, no filler praise"
+  },
+  {
+    "id": "zh-human-001",
+    "text": "笑死 我家猫也干过这事",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "网络口语，无标点空格断句"
+  },
+  {
+    "id": "zh-human-002",
+    "text": "确实 我昨天搞到三点还是不行",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "确实开头，具体时间细节"
+  },
+  {
+    "id": "zh-human-003",
+    "text": "啊这...我无话可说",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "语气词加省略号"
+  },
+  {
+    "id": "zh-human-004",
+    "text": "我也是 电脑一开会就卡",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "短句共鸣，口语场景"
+  },
+  {
+    "id": "zh-human-005",
+    "text": "属于是把我心里话说出来了",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "属于是 句式"
+  },
+  {
+    "id": "zh-human-006",
+    "text": "笑死，我上次也忘带钥匙，在楼下站了二十分钟等开锁师傅，师傅来了还问我是不是经常这样",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "长一点的真实经历，带对话细节"
+  },
+  {
+    "id": "zh-human-007",
+    "text": "不行了 我肚子疼，在地铁上笑到扶杆，旁边大爷一直看我，我还得假装在玩手机",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "生理反应式夸奖"
+  },
+  {
+    "id": "zh-human-008",
+    "text": "你这说的跟我一模一样吧",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "句末吧字，反问式共鸣"
+  },
+  {
+    "id": "zh-human-009",
+    "text": "别骂了别骂了 我这就去改",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "重复词自嘲"
+  },
+  {
+    "id": "zh-human-010",
+    "text": "真的假的 那我去看看，正好今天手上没事，用完回来给楼主回报，好用的话我再追评",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "六字，无主语句"
+  },
+  {
+    "id": "zh-human-011",
+    "text": "我寻思这玩意儿怎么这么眼熟",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "北方口语 寻思/玩意儿"
+  },
+  {
+    "id": "zh-human-012",
+    "text": "太真实了 我妈天天这样",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "家人具体指代"
+  },
+  {
+    "id": "zh-human-013",
+    "text": "草 我刚刚才看到 已经晚了",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "语气词草，断句随意"
+  },
+  {
+    "id": "zh-human-014",
+    "text": "蚌埠住了，老板周一早上九点发这个，我工位上直接笑出声",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "谐音梗加场景细节"
+  },
+  {
+    "id": "zh-human-015",
+    "text": "我也试过 没用 白花钱",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "三个碎片句，负面结论"
+  },
+  {
+    "id": "zh-human-016",
+    "text": "姐妹你这话说一半 急死人了",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "称呼姐妹，抱怨体"
+  },
+  {
+    "id": "zh-human-017",
+    "text": "下班了 今天又是废掉的一天",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "日常打卡式发言"
+  },
+  {
+    "id": "zh-human-018",
+    "text": "我直接一个滑跪，膝盖都不用找地方。上周我也是这么认的错，认完接着犯",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "网络动作梗"
+  },
+  {
+    "id": "zh-human-019",
+    "text": "emmm 这个我不太同意 我上次用那个app就特别卡 换了三个都不行",
+    "lang": "mixed",
+    "label": "human",
+    "bucket": "easy",
+    "note": "中英夹杂加语气词"
+  },
+  {
+    "id": "zh-human-020",
+    "text": "破防了 我准备了两周的结果没通过",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "破防 加个人挫败"
+  },
+  {
+    "id": "zh-human-021",
+    "text": "我人傻了 这都能行？我照着说明书研究了一晚上都没弄成，第二天客服一句话就说明白了",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "口语夸张反问"
+  },
+  {
+    "id": "zh-human-022",
+    "text": "蹲一个后续 楼主记得更新",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "蹲 用法，论坛称呼"
+  },
+  {
+    "id": "zh-human-023",
+    "text": "懂了 这就去卸载 内存终于能省点",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "决定加小算盘"
+  },
+  {
+    "id": "zh-human-024",
+    "text": "笑不活了 评论区比正文还精彩",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "平台特有观察"
+  },
+  {
+    "id": "zh-human-025",
+    "text": "我的膝盖不允许我跑步 一跑到五公里就疼，昨天绑了护膝还是不行",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "身体细节，拟物说法"
+  },
+  {
+    "id": "zh-human-026",
+    "text": "不是 这价我买不下手 加个零我都嫌贵",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "不是 开头吐槽"
+  },
+  {
+    "id": "zh-human-027",
+    "text": "我昨天也遇到一样的事 那客服说话真的绝了，全程就一句 亲再等等",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "复述客服原话，真实感"
+  },
+  {
+    "id": "zh-human-028",
+    "text": "好吧 只有我在意标题那个错别字吗，我盯着它看了半天根本读不下去，属于是我太闲",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "只有我句式"
+  },
+  {
+    "id": "zh-human-029",
+    "text": "刚睡醒 发生了什么 谁给我捋一下",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "三个短句求前情"
+  },
+  {
+    "id": "zh-human-030",
+    "text": "我怀疑你在监视我的生活 但是我没有证据",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "固定梗"
+  },
+  {
+    "id": "zh-human-031",
+    "text": "懂了 谢谢 我去试试 不行再来骂你（不是）",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "括号不是 反话标记"
+  },
+  {
+    "id": "zh-human-032",
+    "text": "我妈要是看到这视频能念叨我一礼拜，从吃饭念叨到睡觉，昨天还专门打电话来接着念",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "家庭场景假设"
+  },
+  {
+    "id": "zh-human-033",
+    "text": "确实，工作三年我最大的收获就是学会了准时下班",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "自嘲式领悟，职场年限"
+  },
+  {
+    "id": "zh-human-034",
+    "text": "我不行了 这图必须存下来当表情包，我们群已经用起来了，楼主你火了知道吧",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "存图行为描述"
+  },
+  {
+    "id": "zh-human-035",
+    "text": "蹲个链接 我找了一天了都",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "蹲个 求链接口语"
+  },
+  {
+    "id": "zh-human-036",
+    "text": "我寻思我也不缺这点钱啊 怎么就下单了",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "冲动消费自问"
+  },
+  {
+    "id": "zh-human-037",
+    "text": "楼主加油 去年我也这样 后来换了个工作好多了，主要就是睡得着了",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "鼓励带自身变化细节"
+  },
+  {
+    "id": "zh-human-038",
+    "text": "别的不说 这配色我是真喜欢，摆在桌上很好看，就为这个我都能忍它那慢得要死的开机",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "单一维度主观评价"
+  },
+  {
+    "id": "zh-human-039",
+    "text": "笑死 我们学校食堂也是这样 菜名起的比这还离谱，那个 青春回忆炒土豆 我一次都没点过",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "具体菜名细节，的地混用"
+  },
+  {
+    "id": "zh-human-040",
+    "text": "一句话: 贵 慢 难用 退货了",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "极简差评列词不列点"
+  },
+  {
+    "id": "zh-human-041",
+    "text": "好家伙 这数字我自己都没算过，我记账三年了都不敢细看，看完默默把外卖软件卸载了",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "好家伙 感叹"
+  },
+  {
+    "id": "zh-human-042",
+    "text": "我一般是早上背单词 但是坚持三天就废了哈哈",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "习惯加自嘲笑声收尾"
+  },
+  {
+    "id": "zh-human-043",
+    "text": "谢谢你 我明天再开始 一定，这周我已经说了四次明天开始，书翻到第三页就没动过了",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "拖延自嘲，带具体次数和进度"
+  },
+  {
+    "id": "zh-human-044",
+    "text": "我这边下大雨 网卡成这样 打游戏队友以为我挂机，解释了半天还不信",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "天气导致网络问题的具体经过"
+  },
+  {
+    "id": "zh-human-045",
+    "text": "看到第三条我沉默了 说的就是我本人，去年也这样，现在改了不少但还是会犯第一条",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "指代具体条目，短促"
+  },
+  {
+    "id": "zh-pro-001",
+    "text": "我们组去年做过类似的迁移，实际收益主要在构建时间，从 18 分钟降到 6 分钟；运行时内存几乎没变化。所以要不要做，取决于你们 CI 的钱花在哪。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "工程师口吻，实测数字与条件结论"
+  },
+  {
+    "id": "zh-pro-002",
+    "text": "补充一点：这里说的吞吐是单实例，横向扩容之后瓶颈会转移到数据库连接池。我们当时卡在 300 并发左右，改成连接复用才上去。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "术语准确，附带自身踩坑数据"
+  },
+  {
+    "id": "zh-pro-003",
+    "text": "我不同意把原因归到语言选型。我们两个项目一个 Java 一个 Go，团队规模一样，交付速度的差异主要来自需求变更频率，而不是语法本身。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "有理有据的反驳，对照实验意识"
+  },
+  {
+    "id": "zh-pro-004",
+    "text": "如果你的场景是读多写少，我会先看缓存一致性怎么保证。命中率再高，一旦脏读就得回源，等于白做。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "条件式建议，带个人判断"
+  },
+  {
+    "id": "zh-pro-005",
+    "text": "这套思路在推荐系统里比较常见，召回和排序分开，中间用特征存储对接。代价是链路变长以后排查很费时间，得有埋点体系撑着，不然就是玄学调参。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "行业经验加口语化吐槽收尾"
+  },
+  {
+    "id": "zh-pro-006",
+    "text": "从工程角度看，代价不在开发在维护。多写一份代码不难，难的是以后每次改动都要同步两个地方，团队里没人愿意接这个活。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "结构整齐但观点具体，非套话"
+  },
+  {
+    "id": "zh-pro-007",
+    "text": "我一般把这类问题拆成两层：一是能不能量化，二是量化之后你有没有决策权。如果测出来也改变不了什么，这个指标就不该建。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "个人方法论，两层拆法有立场"
+  },
+  {
+    "id": "zh-pro-008",
+    "text": "有个坑必须说清楚：日志采样的比例一定要写进文档。我们排查线上问题时以为数据丢了，后面才发现是被采样掉了，白白查了一天。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "踩坑叙事，时间成本具体"
+  },
+  {
+    "id": "zh-pro-009",
+    "text": "建议先压测再优化。上个月我们把一个接口从 200ms 优化到 80ms，回头看基准是在低并发下测的，收益基本是假的。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "自我否定式复盘，数据真实"
+  },
+  {
+    "id": "zh-pro-010",
+    "text": "这段讲得挺清楚，但对新手不友好。缺一个能跑的最小示例，读者照着敲一遍比看十段解释有用。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "先肯定再指出缺口，语气直接"
+  },
+  {
+    "id": "zh-pro-011",
+    "text": "我倾向于更保守的顺序：先加监控，再加限流，最后才考虑改架构。三年前我们跳过前两步直接重构，线上出了两次事故，两次都是同一个原因。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "步骤表述但有事故经历背书"
+  },
+  {
+    "id": "zh-pro-012",
+    "text": "术语上有个小问题：这里描述的是幂等，不是重试。区别在副作用，重试可能重复执行，幂等保证执行多次结果一致。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "纠正用词，定义精确不空转"
+  },
+  {
+    "id": "zh-pro-013",
+    "text": "数据上我不太信这个对比。样本量没写，时间窗口没写，只给了结论。如果有原始的分布图会更有说服力。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "质疑论证缺口，短句并列"
+  },
+  {
+    "id": "zh-pro-014",
+    "text": "我做了四年后端，回头看大部分沟通成本来自接口定义不清楚，而不是技术选型。所以我们组现在要求先写接口文档再开工，效果比换框架明显。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "年限自述加团队约定"
+  },
+  {
+    "id": "zh-pro-015",
+    "text": "如果只是想弄懂原理，我建议直接读论文原文，二手解读很容易丢掉关键假设。我第一次读那篇也没全懂，第二遍才好一些。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "承认自己没读懂，人类特征"
+  },
+  {
+    "id": "zh-pro-016",
+    "text": "这里漏了一个前提：微服务的前提是你有独立部署的能力。没有 CI/CD 和自动化测试就上微服务，只会把一个人的问题变成五个人的问题。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "指出隐含前提，结尾有锋利感"
+  },
+  {
+    "id": "zh-pro-017",
+    "text": "我们线上用的是分库分表，量上去之后发现跨分片查询很难办，最后把这些查询单独做了一张离线宽表。早两年看到这个帖子能省不少事。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "方案演变史，带遗憾语气"
+  },
+  {
+    "id": "zh-pro-018",
+    "text": "把这件事说成技术债不太准确，它更像业务决策：当时用赶工期换来了上线时间，代价由后面接手的人承担。这本身是可以摆到台面上讨论的。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "概念辨析，冒号使用自然"
+  },
+  {
+    "id": "zh-pro-019",
+    "text": "我本地测下来差距主要在小文件场景，大文件基本持平。所以选之前最好确认自己的数据形状，别照搬别人的结论，包括我的。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "限定自身结论适用范围"
+  },
+  {
+    "id": "zh-pro-020",
+    "text": "同意结论，但推导过程有问题。你用的是平均值，这个分布明显是长尾的，用中位数才合理，换掉之后差距会小一半。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "统计口径反驳，量化影响"
+  },
+  {
+    "id": "zh-pro-021",
+    "text": "带团队之后我才理解，代码评审的重点不是找错，而是传播约定。我们现在的评审清单只有五条，每一条都是踩过坑才写进去的。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "认知转变叙述，条数具体"
+  },
+  {
+    "id": "zh-pro-022",
+    "text": "这个方案有个隐性成本：多一跳网络就多一份超时配置。我们最后统一了 200ms 的预算，超了就报警，不然链路上全是魔法数字。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "工程黑话魔法数字，落地做法"
+  },
+  {
+    "id": "zh-pro-023",
+    "text": "不太推荐在生产环境用这个特性，它现在还是预览状态，报错信息很不完整。我们踩过一次，回滚花了两天。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "劝阻式结论加代价"
+  },
+  {
+    "id": "zh-pro-024",
+    "text": "楼主说得挺实在。我补一个非技术因素：这类工具推广不开的阻力，往往是使用习惯，不是功能不够强。我推过两次，第二次才想明白。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "补充视角，带失败次数"
+  },
+  {
+    "id": "zh-pro-025",
+    "text": "我把它实现过一遍，收获最大的是理解边界条件。写文档时觉得已经说清楚的规则，落到代码上大概有三分之一是模糊的。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "easy",
+    "note": "动手后反思，比例具体"
+  },
+  {
+    "id": "en-slop-001",
+    "text": "Great point! Your post really highlights how important it is to build a robust, scalable workflow. What stands out to me is the balance between speed and sustainability — both truly matter. Have you considered how this might evolve as your team grows? 🚀",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "praise + restatement + em-dash + reflexive question"
+  },
+  {
+    "id": "en-slop-002",
+    "text": "This is such a powerful insight. At its core, you're describing the journey from confusion to clarity — and that's where real growth happens. Remember: small habits compound. What's your next step?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "vague depth claim plus fortune-cookie advice"
+  },
+  {
+    "id": "en-slop-003",
+    "text": "Leveraging this kind of mindset is a true game-changer. By delving deeper into the fundamentals, you unlock new opportunities and drive meaningful impact. Would love to hear how others are approaching this!",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "leverage/game-changer/delve stacked"
+  },
+  {
+    "id": "en-slop-004",
+    "text": "Absolutely loved this thread! The seamless way you broke it down makes it accessible to everyone. Key takeaways: clarity, consistency, and courage. What challenges are you facing right now? 💡",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "seamless plus alliterative triad"
+  },
+  {
+    "id": "en-slop-005",
+    "text": "It's worth noting that this isn't just a technical decision — it's a cultural one. Organizations that thrive are the ones that empower their people. How does your team handle this today?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "worth noting, not just X but Y, em-dash"
+  },
+  {
+    "id": "en-slop-006",
+    "text": "What a thought-provoking take! You've articulated the tension between quality and velocity with real nuance. One suggestion: document your process so it can scale with you. Curious what you think! ✨",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "generic praise plus unsolicited advice"
+  },
+  {
+    "id": "en-slop-007",
+    "text": "This resonates deeply. So often we optimize for the wrong metric, and the cost shows up later. Building a robust foundation is the real shortcut. What metrics do you track? 🤔",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "resonates deeply, paradox-phrasing, question tail"
+  },
+  {
+    "id": "en-slop-008",
+    "text": "Great share! The idea of continuous learning as a competitive edge is so true. To truly reap the benefits, I'd also look at how feedback loops close. Anyone tried this in a small team?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "template praise plus vague framework name-drop"
+  },
+  {
+    "id": "en-slop-009",
+    "text": "Truly said 💯 Your reminder to stay curious is exactly what we need today. Empowerment starts with a single question. What's one question you're sitting with?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "sitting with 疗愈腔 plus emoji"
+  },
+  {
+    "id": "en-slop-010",
+    "text": "Love the energy here! What stands out is how you blend strategy with execution — a rare combo. Remember, seamless workflows aren't built, they're grown. Thoughts on where to start?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "antithesis template with grown/built metaphor"
+  },
+  {
+    "id": "en-slop-011",
+    "text": "This is a game-changer for anyone navigating ambiguity. By embracing both the data and the intuition, you create a robust feedback system. How do you decide when to trust the numbers?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "both/and framing with game-changer"
+  },
+  {
+    "id": "en-slop-012",
+    "text": "Fantastic insight! It's not merely about working harder — it's about working with intention. Three things I'd add: reflect, refine, repeat. What does intention look like for you? 🌱",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "not merely X but Y plus verb triad"
+  },
+  {
+    "id": "en-slop-013",
+    "text": "Thanks for putting this into words. The nuance around tradeoffs is spot on. One thought: pair this with a lightweight review cadence and the impact multiplies. Agree or disagree?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "cadence/multiplies corporate abstraction"
+  },
+  {
+    "id": "en-slop-014",
+    "text": "Such a timely post! In a world of noise, clarity is the ultimate leverage. Empowering your team means giving them context, not just tasks. How are you building context today? ✨",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "in a world of X opener with leverage"
+  },
+  {
+    "id": "en-slop-015",
+    "text": "I really appreciate this perspective. It's a great reminder that robust systems come from honest retrospectives. The next frontier is often the boring one. What's boring in your process?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "next frontier aphorism"
+  },
+  {
+    "id": "en-slop-016",
+    "text": "Well said! Your breakdown of the journey from idea to launch is seamless. The real magic is in the details most people skip. What detail do you wish you'd known earlier?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "journey framing plus magic cliché"
+  },
+  {
+    "id": "en-slop-017",
+    "text": "This thread deserves more attention. Delving into the why before the how changes everything. Empowerment, alignment, and momentum — all from one conversation. Where are you stuck? 🚀",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "delving plus noun triad with em-dash"
+  },
+  {
+    "id": "en-slop-018",
+    "text": "Great point! I'd frame it as a three-layer problem: people, process, platform. Once you leverage that lens, the solution becomes obvious. What layer do you find hardest? 💡",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "three-p alliterative framework cosplay"
+  },
+  {
+    "id": "en-slop-019",
+    "text": "Love this. The way you turned a hard lesson into a shareable framework is exactly how communities grow. Consistency compounds. Anyone applying this this week?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "three-word sentence cadence plus compounding"
+  },
+  {
+    "id": "en-slop-020",
+    "text": "This is exactly the kind of signal over noise I came here for. Building a robust habit loop is a game-changer for creative work. What's your trigger? ✨",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "signal over noise cliché stack"
+  },
+  {
+    "id": "en-slop-021",
+    "text": "Such a rich insight — thank you. I'd gently push back on one thing: speed without direction is just drift. Align first, then accelerate. Curious how others weigh in! 🤔",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "gently push back plus drift metaphor"
+  },
+  {
+    "id": "en-slop-022",
+    "text": "Absolutely! The seamless integration of reflection and action is where growth lives. Leverage your calendar like a portfolio. What are you investing time in right now?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "seamless integration nominalisation"
+  },
+  {
+    "id": "en-slop-023",
+    "text": "You've nailed the core tension. It's not just about shipping — it's about shipping with confidence. That robust sense of confidence is trained. How do you train it? 🌱",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "not just X but Y repeated twice"
+  },
+  {
+    "id": "en-slop-024",
+    "text": "This is a great reminder that curiosity is a superpower. Empowering others starts with asking better questions. What question changed your mind recently? 💯",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "superpower trope plus moral advice"
+  },
+  {
+    "id": "en-slop-025",
+    "text": "Wow, this hit different. The idea of compounding trust across a team is so true. Small consistent actions create seamless culture. How do you rebuild it when it breaks? 🚀",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "hit different then slides into corporate tone"
+  },
+  {
+    "id": "en-slop-026",
+    "text": "Excellent analysis! One addition: measure the leading indicators, not just the outcomes. That's how you stay ahead of the curve. Which leading indicator do you trust? 💡",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "ahead of the curve idiom bundle"
+  },
+  {
+    "id": "en-slop-027",
+    "text": "Really enjoyed this. The framing of constraints as creative fuel is fresh. When you leverage limits, you unlock focus. What constraint helped you most?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "leverage/unlock pair, slogan rhythm"
+  },
+  {
+    "id": "en-slop-028",
+    "text": "This is such a valuable share. So many teams talk about alignment but never define it. A robust definition is half the battle. What's yours? ✨",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "half the battle cliché with robust"
+  },
+  {
+    "id": "en-slop-029",
+    "text": "Love it! Growth feels messy because it is messy — the trick is to keep the feedback loop tight. Empowerment plus accountability equals momentum. How are you closing the loop? 🤔",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "equation-style insight, closed loop jargon"
+  },
+  {
+    "id": "en-slop-030",
+    "text": "Great thread! The distinction between motion and progress is a game-changer. Delve into one problem fully and you'll learn more than skimming ten. Which are you choosing? 🌱",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "motion vs progress self-help staple with delve"
+  },
+  {
+    "id": "en-slop-031",
+    "text": "This post is a gift 💝 It's rare to see vulnerability paired with such clear thinking. Clarity, courage, consistency — the trifecta. What's your next brave step?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "trifecta listing with heart emoji"
+  },
+  {
+    "id": "en-slop-032",
+    "text": "Fantastic point. Tools don't scale people — systems do. Building a robust documentation habit is the seamless way out. Where does your knowledge live today?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "punch reversal template plus buzzwords"
+  },
+  {
+    "id": "en-slop-033",
+    "text": "Couldn't agree more. The best teams treat mistakes as data. That mindset is truly empowering. How do you make it safe to be wrong? 💡",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "mistakes as data platitude"
+  },
+  {
+    "id": "en-slop-034",
+    "text": "What a great framing! Complexity isn't the enemy — hidden complexity is. Leveraging simplicity takes real discipline. What did you simplify recently? 🚀",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "X isn't the enemy pattern"
+  },
+  {
+    "id": "en-slop-035",
+    "text": "Thanks for this. It's a strong reminder that momentum beats perfection. Small wins compound into seamless habits. What win are you celebrating today? ✨",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "celebrate-your-win coaching closer"
+  },
+  {
+    "id": "en-slop-036",
+    "text": "This is a masterclass in reframing. Turning obstacles into on-ramps is exactly how you future-proof a career. What obstacle became an opportunity for you? 🤔",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "masterclass plus future-proof compound"
+  },
+  {
+    "id": "en-slop-037",
+    "text": "Really thoughtful post. Attention is the scarcest resource, and you just earned mine. Robust ideas don't need loud delivery. How do you find your signal? 💯",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "flattery about attention itself"
+  },
+  {
+    "id": "en-slop-038",
+    "text": "Love the practical angle here. Strategy without a Monday plan is just a mood. Leverage one tiny ritual and the rest follows. What's your Monday ritual? 🌱",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "clever-sounding aphorism with leverage"
+  },
+  {
+    "id": "en-slop-039",
+    "text": "This hits home. Burnout often shows up as cynicism first — that's the early warning. Building robust recovery routines is key. How do you spot it in yourself? 💡",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "mental-health buzzwords with robust"
+  },
+  {
+    "id": "en-slop-040",
+    "text": "Great insight! The strongest teams run tight loops: learn, apply, share. That seamless cycle is a genuine game-changer. Which link is weakest for you? 🚀",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "triad loop plus three buzzwords in one"
+  },
+  {
+    "id": "en-slop-041",
+    "text": "So true. Clarity is kindness, and vagueness is a tax. Your post is refreshingly clear. What's the clearest thing you've ever been told? ✨",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "definition-epigram template"
+  },
+  {
+    "id": "en-slop-042",
+    "text": "Appreciate this take. Speed matters, but so does direction — the two are not the same. Delving into your why fixes half the how. What's your why? 🤔",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "why/how mirror sentence with delve"
+  },
+  {
+    "id": "en-slop-043",
+    "text": "This is gold. Turning lived experience into a repeatable checklist is how you empower the whole team. Where would a checklist save you hours? 💡",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "checklist pitch without any concrete item"
+  },
+  {
+    "id": "en-slop-044",
+    "text": "Absolutely refreshing. Most advice fails because it's generic — this isn't. A robust principle plus a concrete example is the winning combo. What example changed your work? 🌱",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "meta-praise about specificity, contains none"
+  },
+  {
+    "id": "en-slop-045",
+    "text": "What a timely reminder that consistency is a superpower. Small daily reps beat heroic sprints every time. How do you keep going when motivation fades? 💯",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "reps vs sprints fitness metaphor"
+  },
+  {
+    "id": "zh-slop-001",
+    "text": "说得太对了！这条推文深刻地揭示了长期主义的本质——它不仅仅是坚持，更是一种对未来的投资。总而言之，收益来自复利。大家觉得呢？",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "不仅仅是更是加总而言之加反问"
+  },
+  {
+    "id": "zh-slop-002",
+    "text": "值得注意的是，楼主提到的方法本质上是一个闭环：认知决定行为，行为塑造环境。深入探讨这一点，我们会发现它赋能了每一个普通人。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "值得注意的是加闭环赋能"
+  },
+  {
+    "id": "zh-slop-003",
+    "text": "首先，要明确目标；其次，要拆解路径；最后，要持续复盘。三者结合，才能真正把这件事做成。共勉✨",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "首先其次最后列点式"
+  },
+  {
+    "id": "zh-slop-004",
+    "text": "这个观点很有深度。不仅仅是效率问题，更是认知问题。在快速变化的时代，唯有持续学习才能把握抓手，实现自我赋能。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "抓手赋能公文腔混搭"
+  },
+  {
+    "id": "zh-slop-005",
+    "text": "受益匪浅，感谢分享！把复杂的事情讲清楚本身就是一种能力。大家平时是怎么做的呢？",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "受益匪浅加复述式夸奖"
+  },
+  {
+    "id": "zh-slop-006",
+    "text": "深度解析一下：这背后其实是三个层面的博弈——个人、组织与行业。只有抓住底层逻辑，才能在不确定的时代找到确定性。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "底层逻辑加确定性套语"
+  },
+  {
+    "id": "zh-slop-007",
+    "text": "确实如此。我们常常关注做了什么，却忽略了为什么做。总而言之，动机的纯度决定了结果的高度。你怎么看？",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "对仗式空结论"
+  },
+  {
+    "id": "zh-slop-008",
+    "text": "这条内容值得反复阅读。它不仅仅是一个技巧，更是一种思维方式的重塑，是认知升级的关键一环。加油！💪",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "认知升级加不仅仅更是"
+  },
+  {
+    "id": "zh-slop-009",
+    "text": "从另一个角度看，这个问题还可以进一步拆解：短期看成本，中期看效率，长期看价值。三者缺一不可。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "三段排比加缺一不可"
+  },
+  {
+    "id": "zh-slop-010",
+    "text": "赞同！在 AI 时代，会用工具只是起点，能构建自己的工作流闭环才是核心竞争力。大家觉得呢？",
+    "lang": "mixed",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "闭环核心竞争力加反问"
+  },
+  {
+    "id": "zh-slop-011",
+    "text": "楼主说到点子上了。很多人把忙碌当成高效，但真正的关键是产出密度。值得注意的是，忙碌本身并不能带来复利。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "值得注意的是插入复述"
+  },
+  {
+    "id": "zh-slop-012",
+    "text": "非常认同这个观点。成长从来不是一蹴而就的，它需要耐心、方法与反思的共同作用。总而言之，慢即是快。✨",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "一蹴而就加慢即是快格言"
+  },
+  {
+    "id": "zh-slop-013",
+    "text": "这一观点具有重要的现实意义。它不仅解决了当下的困惑，更为长期的发展提供了可落地的抓手。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "公文式现实意义"
+  },
+  {
+    "id": "zh-slop-014",
+    "text": "说得好！三点感受：第一，方向比速度重要；第二，输入决定输出；第三，环境塑造人。大家有什么补充吗？",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "编号列点加征集补充"
+  },
+  {
+    "id": "zh-slop-015",
+    "text": "读完之后深受启发。很多时候我们缺的不是信息，而是对信息的深度加工能力。这正是当下最被低估的能力。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "深受启发加不是A而是B"
+  },
+  {
+    "id": "zh-slop-016",
+    "text": "值得注意的是，楼主忽略了一个前提：方法论的有效性依赖于执行者的一致性。脱离场景谈方法，容易流于形式。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "值得注意的是开头加书面结尾"
+  },
+  {
+    "id": "zh-slop-017",
+    "text": "太真实了。自律不是束缚，而是自由的基础设施。当我们把选择交给系统，才能真正赋能生活的每一刻。共勉💪",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "自律金句模板加赋能"
+  },
+  {
+    "id": "zh-slop-018",
+    "text": "这条推文的逻辑非常清晰：现象、原因、方案三层递进，让人一目了然。值得收藏反复观看。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "结构赞美三段递进"
+  },
+  {
+    "id": "zh-slop-019",
+    "text": "不仅仅是坚持，更是方法论的迭代；不仅仅是努力，更是方向的校准。总而言之，认知到位，结果自然到位。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "双重不仅仅是更是"
+  },
+  {
+    "id": "zh-slop-020",
+    "text": "在这个信息爆炸的时代，能够沉下心来做减法，本身就是一种稀缺能力。深入思考的人，终将走得更远。大家同意吗？",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "时代背景开头加投票式提问"
+  },
+  {
+    "id": "zh-slop-021",
+    "text": "受益良多！把大目标拆成小闭环，用小步快跑代替宏大规划，这就是可持续的进步。✨",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "小步快跑互联网黑话"
+  },
+  {
+    "id": "zh-slop-022",
+    "text": "赞同楼主。值得注意的是，很多人把手段当成了目的，这就本末倒置了。愿我们都能保持清醒。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "值得注意的是加愿我们句式"
+  },
+  {
+    "id": "zh-slop-023",
+    "text": "真正的成长发生在舒适区的边缘。这不仅仅是一句口号，更是一个可验证的实践路径。希望对你有帮助。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "舒适区鸡汤加希望对你有帮助"
+  },
+  {
+    "id": "zh-slop-024",
+    "text": "首先感谢楼主的分享；其次补充一点，执行中的反馈环节同样关键；最后，希望更多人能看到这条。🙏",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "首先其次最后套壳列点"
+  },
+  {
+    "id": "zh-slop-025",
+    "text": "这个思路非常好，它把一个模糊的问题转化成了可操作的抓手，实现了从认知到行动的闭环。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "抓手闭环同句堆叠"
+  },
+  {
+    "id": "zh-slop-026",
+    "text": "深度共鸣。我们总在寻找最优解，却忽略了满意解才是现实世界的常态。总而言之，完成优于完美。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "深度共鸣加总而言之格言"
+  },
+  {
+    "id": "zh-slop-027",
+    "text": "说得太好了！把时间花在高杠杆的事情上，才能实现持续的价值放大。大家是怎么判断杠杆高低的？",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "高杠杆价值放大加反问"
+  },
+  {
+    "id": "zh-slop-028",
+    "text": "这条值得置顶。它不仅仅是个人经验的总结，更是一套可复制、可迁移、可扩展的方法体系。💡",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "三个可字排比"
+  },
+  {
+    "id": "zh-slop-029",
+    "text": "从本质上看，效率问题从来不是时间问题，而是能量管理问题。抓住这一点，很多困惑自然化解。",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "从本质上看加不是而是"
+  },
+  {
+    "id": "zh-slop-030",
+    "text": "感谢分享，已收藏。希望楼主继续输出这样高质量、有深度、有温度的内容，大家一起进步！🌱",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "easy",
+    "note": "高质量有深度有温度三连"
+  },
+  {
+    "id": "hn-001",
+    "text": "Great point. Also the thing nobody said: the fix costs 900 euros and my building won't approve it, so I'll keep being cold this winter.",
+    "lang": "en",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "starts with Great point but lands on blunt concrete constraint"
+  },
+  {
+    "id": "hn-002",
+    "text": "ok fine, let's *delve* into this then: the answer is on page 3 of the PDF, the part everyone skips because it's boring",
+    "lang": "en",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "ironic emphasis on delve, mocks the buzzword"
+  },
+  {
+    "id": "hn-003",
+    "text": "三件事，按顺序做：1）先备份；2）关掉自动更新；3）把日志级别调到 warn。我上周这么弄完就再没复现过。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "真人编号清单，条目具体可执行"
+  },
+  {
+    "id": "hn-004",
+    "text": "值得注意的一点：这个方案在我们这儿跑通了，但前提是数据量小于一千万行，超过之后直接崩，别问我怎么知道的。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "值得注意 用于真实限定条件"
+  },
+  {
+    "id": "hn-005",
+    "text": "love this idea honestly. what are your thoughts on doing it in a rented flat though? i can't touch the wiring, that's my entire problem",
+    "lang": "en",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "uses the reflexive question phrase but lowercase and situation-specific"
+  },
+  {
+    "id": "hn-006",
+    "text": "checklist from our actual postmortem: 1 revert within 5 minutes, 2 a named owner before rollback, 3 no new deploys for 24h, 4 write the doc the same day. we lost a whole weekend learning this.",
+    "lang": "en",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "legit 4-item checklist with real cost attached"
+  },
+  {
+    "id": "hn-007",
+    "text": "赋能？别闹了，这就是个普通的功能上线。真正帮上忙的是把审批从三层砍到一层，跟什么词儿没关系。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "出现赋能但是在嘲讽该词"
+  },
+  {
+    "id": "hn-008",
+    "text": "short answer: yes, but only if you're already doing 20 hours a week of cardio. otherwise you'll get hurt. ask me how i know, six weeks off now",
+    "lang": "en",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "structured short answer format with injury detail"
+  },
+  {
+    "id": "hn-009",
+    "text": "首先，这钱不该租户出；其次，房东已经拖了 40 天；最后，我把投诉信模板放主页了，需要自取，不用谢。",
+    "lang": "zh",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "首先其次最后用于真实维权叙述"
+  },
+  {
+    "id": "hn-010",
+    "text": "Great point! Except I already answered this in the reply above yours, twice, with numbers. Go read it and tell me where I'm wrong.",
+    "lang": "en",
+    "label": "human",
+    "bucket": "hard_negative",
+    "note": "Great point opener with mildly aggressive human content"
+  },
+  {
+    "id": "hp-001",
+    "text": "This is genuinely useful. Clearest explanation of it I've seen this week. What made you start looking into it?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "terse praise plus one question, no keyword tells"
+  },
+  {
+    "id": "hp-002",
+    "text": "Solid take. Simple and correct beats clever and slow. What were you trying to solve?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "aphoristic but clean, easy to mistake for human"
+  },
+  {
+    "id": "hp-003",
+    "text": "Good point. Most people skip this step and then wonder why the rest falls apart. How long did it take you to figure it out?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "generic agreement plus closing question"
+  },
+  {
+    "id": "hp-004",
+    "text": "Nice. Straightforward and easy to follow. Which part took the longest?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "three short sentences, zero vocabulary markers"
+  },
+  {
+    "id": "hp-005",
+    "text": "This is right on. Practical advice like this gets better the earlier you apply it. When did you start?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "confident filler claim with a polite question"
+  },
+  {
+    "id": "hp-006",
+    "text": "Clean writeup. The order you put things in really helps. What would you change now?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "no tell words at all, structure-only praise"
+  },
+  {
+    "id": "hp-007",
+    "text": "Agreed. The hard part is usually the boring part. How do you keep going through it?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "short epigram plus engagement question"
+  },
+  {
+    "id": "hp-008",
+    "text": "Really helpful summary. Short and clear wins. How do you stay up to date with it?",
+    "lang": "en",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "generic compliment, template ending"
+  },
+  {
+    "id": "hp-009",
+    "text": "写得很清楚，这一点确实关键。好多人其实都忽略了这一步。你是怎么发现这个问题的？",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "短中文通用夸奖加反问，无黑话"
+  },
+  {
+    "id": "hp-010",
+    "text": "楼主这篇实用，结构也顺。读完没有废话。是哪一步让你卡最久？",
+    "lang": "zh",
+    "label": "ai_slop",
+    "bucket": "hard_positive",
+    "note": "极简干净中文 AI 回复，仅靠提问句暴露"
+  },
+  {
+    "id": "spam-001",
+    "text": "This changed my life fr 🔥 more on my profile, link in bio: example.com/fake-fit",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "link-in-bio funnel with placeholder domain"
+  },
+  {
+    "id": "spam-002",
+    "text": "i made 4k last month from my phone, no cap. dm me STACK and i'll send you exactly how. also on t.me/example_channel",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "DM keyword CTA plus telegram funnel"
+  },
+  {
+    "id": "spam-003",
+    "text": "amazing content! if you liked this you'll love what's in my highlights — cutt.ly/fake don't miss it 💰",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "flattery then redirect to shortener link"
+  },
+  {
+    "id": "spam-004",
+    "text": "免费领 300 元体验金，新老用户都能领，点我主页 example.com/fake 注册当天到账",
+    "lang": "zh",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "体验金诱导注册"
+  },
+  {
+    "id": "spam-005",
+    "text": "I got mine from the link in my bio, 3 days and my skin cleared up 🌸 check my profile for the exact one I use",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "testimonial plus check my profile CTA"
+  },
+  {
+    "id": "spam-006",
+    "text": "只发一次：副业项目，日入 500 不是梦，感兴趣私信我 666，看置顶 example.com/fake",
+    "lang": "zh",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "日入加私信数字关键词套路"
+  },
+  {
+    "id": "spam-007",
+    "text": "hey, saw you're into fitness — I have a free 7 day plan I'm giving to 20 people, dm me PLAN to grab yours",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "personalised opener plus scarcity CTA"
+  },
+  {
+    "id": "spam-008",
+    "text": "cameon me if you want the full series, link in bio. only taking 5 this week 😘",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "platform-name CTA funnel with slot limit"
+  },
+  {
+    "id": "spam-009",
+    "text": "our telegram group shares signals daily, 92% win rate, join t.me/example_channel before it fills up",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "fake win-rate stat plus channel funnel"
+  },
+  {
+    "id": "spam-010",
+    "text": "姐妹们我把教程放网盘了，example.com/fake 自取，记得先关注不然找不到",
+    "lang": "zh",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "强制关注才能领取的话术"
+  },
+  {
+    "id": "spam-011",
+    "text": "this tool is underrated, i use it for every video now. grab it through my bio link cutt.ly/fake 🎬",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "fake organic recommendation plus shortener"
+  },
+  {
+    "id": "spam-012",
+    "text": "full series is too long to post here, put it in my bio: example.com/fake before it gets taken down",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "urgency CTA pushing off-platform link"
+  },
+  {
+    "id": "spam-013",
+    "text": "crypto alerts, early gems first. free group, 30 spots left: t.me/example_channel 🚀 don't say i never shared anything",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "crypto funnel with fake remaining slots"
+  },
+  {
+    "id": "spam-014",
+    "text": "老铁们，带货链接放简介了，今天下单有返现，example.com/fake，仅限前 50 名",
+    "lang": "zh",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "返现加限名前缀的带货模板"
+  },
+  {
+    "id": "spam-015",
+    "text": "love your posts! i'm running a free 10 day coaching trial, 3 spots left, dm GO and check my pinned cutt.ly/fake",
+    "lang": "en",
+    "label": "spam_marketing",
+    "bucket": "easy",
+    "note": "compliment sandwich into DM funnel"
+  },
+  {
+    "id": "scam-001",
+    "text": "CONGRATULATIONS! You were selected for the 50,000 token airdrop. Connect your wallet at example.com/fake-claim within 24h or your spot is released.",
+    "lang": "en",
+    "label": "scam",
+    "bucket": "easy",
+    "note": "fake airdrop with wallet connect and deadline"
+  },
+  {
+    "id": "scam-002",
+    "text": "官方抽奖：转发即可抽 iPhone 一台，中奖名单已在 example.com/fake 公布，请填收货地址和身份证后四位。",
+    "lang": "zh",
+    "label": "scam",
+    "bucket": "easy",
+    "note": "假冒抽奖索取身份证信息"
+  },
+  {
+    "id": "scam-003",
+    "text": "Your account shows unusual sign-in activity. Verify here to avoid suspension: example.com/fake-secure — confirmation required within 1 hour.",
+    "lang": "en",
+    "label": "scam",
+    "bucket": "easy",
+    "note": "credential phishing with urgency threat"
+  },
+  {
+    "id": "scam-004",
+    "text": "Giveaway live now: send 0.5 ETH and we send 2 back within 10 minutes, proof on t.me/example_channel. First 20 wallets only.",
+    "lang": "en",
+    "label": "scam",
+    "bucket": "easy",
+    "note": "send-one-get-two crypto scam pattern"
+  },
+  {
+    "id": "scam-005",
+    "text": "紧急通知：您的社保账户异常，请点击 example.com/fake 完成实名认证，逾期将停止服务。",
+    "lang": "zh",
+    "label": "scam",
+    "bucket": "easy",
+    "note": "仿公务短信钓鱼链接"
+  }
+]

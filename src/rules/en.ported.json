@@ -1,0 +1,1116 @@
+{
+ "_attribution": "Derived from slop.json in github.com/Jakeschincariol/instagram-agent-skill (skills/ig-human), MIT License, Copyright (c) the repository authors. Ported into this project's rule schema: fields renamed, inline (?i)/(?m) groups and Python \\UXXXXXXXX escapes converted to JS, weights assigned by family. See docs/research.md for the full reuse ledger.",
+ "lang": "en",
+ "version": "ported-1",
+ "invisible": [
+  {
+   "cp": "U+200B",
+   "name": "ZERO WIDTH SPACE",
+   "action": "delete"
+  },
+  {
+   "cp": "U+200C",
+   "name": "ZERO WIDTH NON-JOINER",
+   "action": "delete"
+  },
+  {
+   "cp": "U+200D",
+   "name": "ZERO WIDTH JOINER",
+   "action": "delete"
+  },
+  {
+   "cp": "U+2060",
+   "name": "WORD JOINER",
+   "action": "delete"
+  },
+  {
+   "cp": "U+FEFF",
+   "name": "ZERO WIDTH NO-BREAK SPACE / BOM",
+   "action": "delete"
+  },
+  {
+   "cp": "U+00AD",
+   "name": "SOFT HYPHEN",
+   "action": "delete"
+  },
+  {
+   "cp": "U+180E",
+   "name": "MONGOLIAN VOWEL SEPARATOR",
+   "action": "delete"
+  },
+  {
+   "cp": "U+061C",
+   "name": "ARABIC LETTER MARK",
+   "action": "delete"
+  },
+  {
+   "cp": "U+200E",
+   "name": "LEFT-TO-RIGHT MARK",
+   "action": "delete"
+  },
+  {
+   "cp": "U+200F",
+   "name": "RIGHT-TO-LEFT MARK",
+   "action": "delete"
+  },
+  {
+   "cp": "U+E0000-U+E007F",
+   "name": "TAG CHARACTERS (invisible ASCII smuggling)",
+   "action": "delete"
+  },
+  {
+   "cp": "U+00A0",
+   "name": "NO-BREAK SPACE",
+   "action": "space"
+  },
+  {
+   "cp": "U+202F",
+   "name": "NARROW NO-BREAK SPACE",
+   "action": "space"
+  },
+  {
+   "cp": "U+2009",
+   "name": "THIN SPACE",
+   "action": "space"
+  },
+  {
+   "cp": "U+2007",
+   "name": "FIGURE SPACE",
+   "action": "space"
+  },
+  {
+   "cp": "U+2003",
+   "name": "EM SPACE",
+   "action": "space"
+  },
+  {
+   "cp": "U+2002",
+   "name": "EN SPACE",
+   "action": "space"
+  },
+  {
+   "cp": "U+2063",
+   "name": "INVISIBLE SEPARATOR",
+   "action": "delete"
+  }
+ ],
+ "typographic": [
+  {
+   "from": "—",
+   "name": "EM DASH",
+   "to": ", "
+  },
+  {
+   "from": "–",
+   "name": "EN DASH",
+   "to": "-"
+  },
+  {
+   "from": "‘",
+   "name": "LEFT SINGLE QUOTE",
+   "to": "'"
+  },
+  {
+   "from": "’",
+   "name": "RIGHT SINGLE QUOTE",
+   "to": "'"
+  },
+  {
+   "from": "“",
+   "name": "LEFT DOUBLE QUOTE",
+   "to": "\""
+  },
+  {
+   "from": "”",
+   "name": "RIGHT DOUBLE QUOTE",
+   "to": "\""
+  },
+  {
+   "from": "…",
+   "name": "HORIZONTAL ELLIPSIS",
+   "to": "..."
+  },
+  {
+   "from": "′",
+   "name": "PRIME",
+   "to": "'"
+  },
+  {
+   "from": "·",
+   "name": "MIDDLE DOT",
+   "to": "-"
+  },
+  {
+   "from": "•",
+   "name": "BULLET",
+   "to": "-"
+  },
+  {
+   "from": "→",
+   "name": "RIGHTWARDS ARROW",
+   "to": "->"
+  }
+ ],
+ "words": [
+  {
+   "t": "delve into",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "delve",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "dive deep into",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "deep dive",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "leverage",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "leveraging",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "utilize",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "utilizing",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "harness",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "embark on",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "foster",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "facilitate",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "showcase",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "unlock",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "elevate",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "streamline",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "spearhead",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "underscore",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "underscores",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "cultivate",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "amplify",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "curate",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "curated",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "empower",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "revolutionize",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "transformative",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "robust",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "seamless",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "seamlessly",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "pivotal",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "crucial",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "vital",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "comprehensive",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "cutting-edge",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "game-changing",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "game-changer",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "groundbreaking",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "unparalleled",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "invaluable",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "meticulous",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "meticulously",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "myriad of",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "myriad",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "multifaceted",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "holistic",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "bespoke",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "innovative",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "profound",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "remarkable",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "compelling",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "tapestry",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "realm",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "landscape",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "journey",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "testament to",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "cornerstone",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "beacon",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "paradigm",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "synergy",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "ecosystem",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "treasure trove",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "plethora of",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "plethora",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "arsenal",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "north star",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "moreover",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "furthermore",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "additionally",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "nevertheless",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "consequently",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "thus",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "hence",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "notably",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "importantly",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "ultimately",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "in essence",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "in conclusion",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "when it comes to",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "in order to",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "a wide range of",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "it is worth noting that",
+   "w": 3,
+   "f": "connectives"
+  },
+  {
+   "t": "supercharge",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "skyrocket",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "unleash",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "effortlessly",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "captivating",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "stunning",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "breathtaking",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "iconic",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "must-have",
+   "w": 2,
+   "f": "adjectives"
+  },
+  {
+   "t": "no-brainer",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "hidden gem",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "secret sauce",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "ultimate guide",
+   "w": 3,
+   "f": "nouns"
+  },
+  {
+   "t": "level up",
+   "w": 2,
+   "f": "verbs"
+  },
+  {
+   "t": "hack",
+   "w": 3,
+   "f": "nouns"
+  }
+ ],
+ "phrases": [
+  {
+   "p": "in today's fast-paced world",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "in today's digital age",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "in the ever-evolving landscape of",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "in the ever-changing world of",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "let's face it",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "here's the thing",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "picture this",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "imagine a world where",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "it's no secret that",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "we've all been there",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "let that sink in",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "the choice is yours",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "food for thought",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "the future is here",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "what are your thoughts?",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "drop a comment below",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "at the end of the day",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "needle-moving",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "move the needle",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "a testament to",
+   "w": 3,
+   "f": "nouns",
+   "pos": "anywhere"
+  },
+  {
+   "p": "had the opportunity to",
+   "w": 3,
+   "f": "connectives",
+   "pos": "anywhere"
+  },
+  {
+   "p": "i am excited to announce",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "i'm thrilled to share",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "i am humbled to",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "without further ado",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "buckle up",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "the harsh truth is",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "spoiler alert",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "read that again",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "you're welcome",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "save this for later",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "who's with me",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "stop scrolling",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "don't scroll past this",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "in this video i'm going to show you",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "in today's video",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "watch till the end",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "you won't believe",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "nobody is talking about this",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "no one is talking about this",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "this changed everything",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "this is your sign to",
+   "w": 5,
+   "f": "openers",
+   "pos": "start"
+  },
+  {
+   "p": "little did i know",
+   "w": 3,
+   "f": "connectives",
+   "pos": "anywhere"
+  },
+  {
+   "p": "fast forward to today",
+   "w": 3,
+   "f": "connectives",
+   "pos": "anywhere"
+  },
+  {
+   "p": "and just like that",
+   "w": 3,
+   "f": "connectives",
+   "pos": "anywhere"
+  },
+  {
+   "p": "the rest is history",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "run don't walk",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "trust me on this one",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "don't sleep on this",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "follow for more",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "hit follow for more",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "double tap if",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "tag someone who needs this",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "let me know in the comments",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "share this with someone who needs it",
+   "w": 4,
+   "f": "closers",
+   "pos": "anywhere"
+  },
+  {
+   "p": "the algorithm loves",
+   "w": 3,
+   "f": "nouns",
+   "pos": "anywhere"
+  },
+  {
+   "p": "beat the algorithm",
+   "w": 3,
+   "f": "nouns",
+   "pos": "anywhere"
+  },
+  {
+   "p": "go viral overnight",
+   "w": 3,
+   "f": "nouns",
+   "pos": "anywhere"
+  }
+ ],
+ "structures": [
+  {
+   "name": "not-just",
+   "re": "\\bit'?s not (?:just|only) [^.!?\\n]{2,60}[,.] it'?s\\b",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "\"It's not just X, it's Y\""
+  },
+  {
+   "name": "not-only",
+   "re": "\\bnot only\\b[^.!?\\n]{2,80}\\bbut also\\b",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "\"Not only X but also Y\""
+  },
+  {
+   "name": "isnt-about",
+   "re": "\\b(?:this|it) is(?:n'?t| not) about [^.!?\\n]{2,60}[.!] it'?s about\\b",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "\"It isn't about X. It's about Y.\""
+  },
+  {
+   "name": "the-result",
+   "re": "^\\s*(?:the result|the best part|the kicker|the catch)\\?\\s*$",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "One-word rhetorical question line"
+  },
+  {
+   "name": "heres-what",
+   "re": "\\bhere'?s what (?:i|we) learned\\b",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "\"Here's what I learned\""
+  },
+  {
+   "name": "triad",
+   "re": "\\b\\w+, \\w+, and \\w+\\.",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "Rule-of-three triad"
+  },
+  {
+   "name": "rocket",
+   "re": "[\\u{1F680}\\u{1F525}\\u{1F4A1}\\u2728\\u{1F3AF}]",
+   "flags": "u",
+   "w": 5,
+   "f": "structure",
+   "note": "Rocket / fire / bulb / sparkle / dart emoji"
+  },
+  {
+   "name": "hashtag-wall",
+   "re": "(?:#\\w+[ \\t]*){5,}",
+   "flags": "u",
+   "w": 5,
+   "f": "structure",
+   "note": "Hashtag wall (5+)"
+  },
+  {
+   "name": "as-an-ai",
+   "re": "\\bas an ai\\b|\\bas a language model\\b",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "Model self-reference"
+  },
+  {
+   "name": "in-summary",
+   "re": "^\\s*(?:in summary|to summarize|in conclusion)\\b",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "Essay-closer opener"
+  },
+  {
+   "name": "engagement-bait",
+   "re": "\\b(?:agree\\?|thoughts\\?|who else\\b|am i wrong\\?)\\s*$",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "Reflex engagement bait"
+  },
+  {
+   "name": "stop-scroll",
+   "re": "^\\s*(?:stop scrolling|don'?t scroll|wait[,.]? don'?t scroll)\\b",
+   "flags": "imu",
+   "w": 5,
+   "f": "structure",
+   "note": "\"Stop scrolling\" opener"
+  },
+  {
+   "name": "in-this-video",
+   "re": "\\b(?:in (?:this|today'?s) (?:video|reel|post)|today i'?m going to show you|i'?m going to (?:show|teach) you how)\\b",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "Video preamble (\"in this video I'm going to show you\")"
+  },
+  {
+   "name": "emoji-bullets",
+   "re": "^\\s*[\\u{1F300}-\\u{1FAFF}✅➡⬅✔✨]\\s*\\S",
+   "flags": "mu",
+   "w": 5,
+   "f": "structure",
+   "note": "Emoji bullet list"
+  },
+  {
+   "name": "caps-shout",
+   "re": "\\b[A-Z]{3,}\\b(?:\\s+\\b[A-Z]{3,}\\b){2,}",
+   "flags": "u",
+   "w": 5,
+   "f": "structure",
+   "note": "Three or more shouted words in a row"
+  },
+  {
+   "name": "follow-bait",
+   "re": "\\b(?:follow for more|tag someone who|double tap if|share this if|comment below if)\\b",
+   "flags": "iu",
+   "w": 5,
+   "f": "structure",
+   "note": "Reflex follow or tag bait"
+  }
+ ]
+}
