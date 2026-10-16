@@ -7,6 +7,7 @@
 ## 快速开始（零 Token、零凭证）
 
 ```sh
+git clone https://github.com/aritosi/x-reply-sentinel.git && cd x-reply-sentinel
 node src/cli.ts test --e2e                 # 语料门槛 + 单元测试 + fixture 离线演练
 node src/cli.ts doctor                     # 自检：通路能力、凭证是否设置、今日预算、数据量
 node src/cli.ts scan 1845000000000000001 --provider fixture --data-dir /tmp/xrs-demo
@@ -26,7 +27,8 @@ node src/cli.ts daily --data-dir /tmp/xrs-demo
 仓库根目录的 `SKILL.md` 即技能入口（含 name/description 与调用规约）。整目录放到技能目录即可，没有依赖安装步骤：
 
 ```sh
-cp -R . ~/your-agent-skills/x-reply-sentinel
+git clone https://github.com/aritosi/x-reply-sentinel.git
+cp -R x-reply-sentinel ~/your-agent-skills/x-reply-sentinel
 ```
 
 要求 Node ≥ 22.18（用到内置 `node:sqlite`），TypeScript 由 Node 直接执行，不需要构建。
